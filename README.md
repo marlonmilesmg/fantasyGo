@@ -94,7 +94,7 @@ _Note that the API above is public and doesn't require any authentication._
 
 ## Follow-up
 
-Answer the questions in the [FOLLOW-UP.md](./FOLLOW-UP.md) file.
+Answer the questions in the [FOLLOW_UP.md](./FOLLOW_UP.md) file.
 
 ## Submitting Your Code
 
