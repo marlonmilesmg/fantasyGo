@@ -47,6 +47,8 @@ For the frontend portion of the test, use the `/frontend` folder.
    - Use the `elements` field from the output
    - Display the `first_name`, `second_name`, `web_name`, `total_points`, `team` (the team name) and 2 statistics of your choosing
 
+   _NOTE: You will run into a CORS issue when trying to access this URL from your app. We would like to see how you hanlde this. If you are unable to figure it out, thats okay - You may also use a browser plugin to bypass the restriction._
+
 2. Add responsive functionality for the layout, which will display one column on mobile
    devices, two columns on tablet devices, and four columns on desktops.
 3. Add a button to sort the players by total points from highest to lowest
