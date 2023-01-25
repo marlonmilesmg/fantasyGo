@@ -77,7 +77,7 @@ For the backend portion of the test, use the `/backend` folder.
 1. Create an API with a single resolver that will return South African University data.
 2. The data returned should be able to be filtered on `name` and/or `state-province`
    1. Both of these filters should be optional
-3. Only the following fields should be included in the response: `name`, `state-province` and `web_pages`
+3. Only the following fields should be included in the response: `name`, `state_province` and `web_pages`
 4. OPTIONAL BONUS: Include a unit test for the functionality in your resolver using a testing framework of your choice.
 
 The data can be retrieved from the following URL:
