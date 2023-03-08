@@ -32,7 +32,7 @@ For the frontend portion of the test, use the `/frontend` folder.
 #### Requirements
 
 - You must utilize the following technologies:
-  - Vue.js
+  - Vue.js or React.js
   - TailwindCSS
 - Ensure the app is served on port `3000`
 
