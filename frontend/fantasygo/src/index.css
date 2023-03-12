@@ -27,3 +27,12 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.btn{
+  margin-left:100px;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 12px;
+  }

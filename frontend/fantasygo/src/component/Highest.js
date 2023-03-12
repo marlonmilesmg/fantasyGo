@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-const Index = () => {
+const Highest = ( )=> {
 
     const [ playerData, setPlayerData] = useState({});
-    const [loading, setLoading] = useState(true); 
+    const [loading, setLoading] = useState(true);
 
         const fetchData = async () => {
             const response = await fetch ("https://fantasy.premierleague.com/api/bootstrap-static/");
@@ -18,7 +18,10 @@ const Index = () => {
             fetchData();
         }, []);
 
-        if(!loading) 
+        if(!loading)
+
+        playerData.elements.sort((a, b) => b.total_points - a.total_points);
+        console.log('Sorted - ' + JSON.stringify(playerData.elements));
 
         return <div className="container mt-4"> 
 
@@ -32,7 +35,7 @@ const Index = () => {
             <th scope="col">Team</th>
             </tr>
         
-            {playerData.elements.map((element, index) => (
+            {playerData.elements?.map((element, index) => (
                         <tr data-index={index}>
                         <td>{element.team}</td>
                         <td>{element.first_name}</td>
@@ -45,8 +48,6 @@ const Index = () => {
 
         </table>
         </div>
+}
 
-    }
-
-
-export default Index;
+export default Highest;
